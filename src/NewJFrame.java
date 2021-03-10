@@ -65,6 +65,7 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
+        number2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         number2.setBorder(null);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
@@ -94,6 +95,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(0, 0, 255));
         jLabel4.setText("Hints :");
 
+        number1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         number1.setBorder(null);
         number1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -216,7 +218,7 @@ public boolean c = false ;
         
  
         if (c==false){
-        dis.setText("Choose A Number Between "+(number-10)+" To "+(number+10));
+        dis.setText("Choose A Number Between "+(number-5)+" To "+(number+5));
         this.c = true ;
         }
         else {
